@@ -38,28 +38,32 @@
 				<string>kakaof1eb0e8d6a8bee12f87ca60a0d160cf7://kakaolink</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.361086854733-oep10lonkdho54qighti0ia3rm2nugg9</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
+		<string>kakaof1eb0e8d6a8bee12f87ca60a0d160cf7</string>
 		<string>kakaokompassauth</string>
+		<string>storykompassauth</string>
 		<string>kakaolink</string>
+		<string>kakaotalk-5.9.7</string>
 	</array>
-	<key>LSApplicationQueriesSchemes</key>
-  <array>
-      <!-- common -->
-      <string>kakaof1eb0e8d6a8bee12f87ca60a0d160cf7</string>
-
-      <!-- KakaoTalk login -->
-      <string>kakaokompassauth</string>
-      <string>storykompassauth</string>
-
-      <!-- KakaoLink -->
-      <string>kakaolink</string>         
-      <string>kakaotalk-5.9.7</string>
-  </array>
-	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "361086854733",
+    "project_id": "sociallogintest-58854",
+    "storage_bucket": "sociallogintest-58854.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361086854733:android:503022a9358b29eb8b9e04",
+        "android_client_info": {
+          "package_name": "com.example.kakao_login_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361086854733-ahd3nmf9pc7raokvrkc9bm0sorf454ah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kakao_login_test",
+            "certificate_hash": "268d83b3890ebfc94be0c8d09186bec1ea045b22"
+          }
+        },
+        {
+          "client_id": "361086854733-gajvgn0inlv7q4jlfsfg7nqhohhrkifk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhTzT8GQMdSlKnaRupJJ4S5cV38DNUZQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361086854733-gajvgn0inlv7q4jlfsfg7nqhohhrkifk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "361086854733-oep10lonkdho54qighti0ia3rm2nugg9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.kakao-login-test"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
