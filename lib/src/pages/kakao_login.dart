@@ -44,7 +44,7 @@ class _KakaoLoginState extends State<KakaoLogin> {
 
   Future<void> _loginButtonPressed() async {
     String authCode = await AuthCodeClient.instance.request();
-    print(authCode);
+    debugPrint(authCode);
   }
   // Future<void> _loginWithKakaoApp() async {
   //   try {
